@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagenes y Tablas</title>
+  </head>
+  <body>
+    <h1>Imagenes</h1>
+    <h2>Imagenes en Html</h2>
+    <!-- Eqtueta para insterar imagenes --><img
+      src="img/perro1.jpg"
+      alt="Imagen de un perro"
+      title="Foto de un lindo perro lindo"
+      width="255px"
+      height="255px"
+    />
+    <!-- La eqtiqueta anterior tiene atributos como los que se muestran en la parte superior -->
+
+    <h2>Tablas</h2>
+    <table border="1">
+      <!-- Esta etiqueta se usa para definir una tabla -->
+      <tr>
+        <!-- Esta etqiueta define una fila -->
+        <th>Nombre</th>
+        <!-- Esta etqiueta define una columna -->
+        <th>Apellidos</th>
+        <th>País</th>
+      </tr>
+      <tr>
+        <td>Felipe</td>
+        <td>Uribe Guevara</td>
+        <td>Colombia</td>
+      </tr>
+      <tr>
+        <td>Ana Maria</td>
+        <td colspan="7">Uribe Guevara</td>
+        <!-- El atrivuto colspan esta sujeto a el numero de columnas que tiene 
+          definida la tabla, por esa razon aunque el colspan sea mayor no se verá 
+          representado en la visualización -->
+        <!-- <td>Colombia</td> -->
+      </tr>
+    </table>
+  </body>
+</html>

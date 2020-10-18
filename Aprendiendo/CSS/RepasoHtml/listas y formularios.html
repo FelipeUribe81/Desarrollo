@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas y Formularios</title>
+  </head>
+  <body>
+    <h1>Aqui van mis primeras Listas</h1>
+    <h2>Listas</h2>
+    <h3>Listado de frutas 1</h3>
+    <ol>
+      <!-- Listas ordenadas -->
+      <li>Manzana</li>
+      <li>Naranja</li>
+      <li>Sandia</li>
+      <li>Pera</li>
+    </ol>
+    <h3>Listado de frutas 2</h3>
+    <ul>
+      <!-- Listas en desorden -->
+      <li>Manzana</li>
+      <ul>
+        <li>Roja</li>
+        <li>Verde</li>
+      </ul>
+      <li>Naranja</li>
+      <li>Sandia</li>
+      <li>Pera</li>
+    </ul>
+    <h2>Formularios</h2>
+    <h3>Formulario</h3>
+    <form action="">
+      <!-- Esta etiqueta define un formulario -->
+      <p>
+        <label for="nombre">Nombre</label>
+        <!-- Nombre del campo -->
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+        /><!-- Esta etiqueta define un tipo de campo editable -->
+      </p>
+      <p>
+        <label for="descripcion">Descripción</label>
+        <textarea name="descripcion"></textarea>
+        <!-- Esta etiqueta define un tipo de input o campo de texto -->
+      </p>
+
+      <p>
+        <input type="radio" name="genero" value="hombre" />Hombre<br />
+        <!-- Esta etiqueta es un input no editable de tipo radioButtom -->
+        <input type="radio" name="genero" value="mujer" />Mujer<br />
+        <input type="radio" name="genero" value="nada" />Nada<br />
+      </p>
+
+      <p>
+        <select name="genero2">
+          <!-- Esta etiqueta se utiliza para una lista desplgable selecionable -->
+          <option value="hombre">Hombre</option>
+          <!-- Estas son la opciones de la lista -->
+          <option value="mujer">Mujer</option>
+          <option value="nada">Nada</option>
+        </select>
+        <input type="submit" value="Enviar formulario" />
+      </p>
+    </form>
+  </body>
+</html>
