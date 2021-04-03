@@ -8,29 +8,54 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Master en CSS con victor Robles WEB</h1>
-    <ul>
+    <h1 id="titulo">Master en CSS con victor Robles WEB</h1>
+    <ul id="menu">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">Temario</a></li>
+        <li>
+            <a href="#">Temario</a>
+            <ul>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">LESS</a></li>
+            </ul>
+        </li>
         <li><a href="#">Reseñas</a></li>
         <li><a href="#">Contacto</a></li>
     </ul>
 
-    <div class="descripcion">
+    <div id="descripcion">
         <h2>Descripcion del curso</h2>
-        <p>
+        <p class="parrafo parrafo1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ipsam aspernatur veritatis consequuntur quibusdam ipsum architecto rem vero expedita similique voluptates magni! Enim provident sequi, unde odio soluta inventore sint?
         </p>
-        <p>
+        <p class="parrafo">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit fuga, cum quo illo soluta itaque! Molestias ipsam odio cum reiciendis asperiores illum, provident suscipit consequuntur, unde eius amet deleniti dicta.
         </p>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit fuga, cum quo illo soluta itaque! Molestias ipsam odio cum reiciendis asperiores illum, provident suscipit consequuntur, unde eius amet deleniti dicta.
         </p>
-        <p>
+        <p class="parrafo parrafo4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit fuga, cum quo illo soluta itaque! Molestias ipsam odio cum reiciendis asperiores illum, provident suscipit consequuntur, unde eius amet deleniti dicta.
         </p>
     </div>
+
+    <div id="usuario">
+
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos">
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div id="saludo">
+        <h1>
+            Hola soy Feipe Uribe Web
+        </h1>
+    </div>
+
     <footer>
         Todos los derechos reservados &copy; <a href="https://victorroblesweb.es/">Pagina de victor</a>
     </footer>

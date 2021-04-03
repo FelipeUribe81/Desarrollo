@@ -1,10 +1,107 @@
-body {
-    background: gray;
+/* 
+
+########## SELECTORES ##########
+
+*/
+
+/* Selector universal */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    color: red;
-    font-size: 50px;
-/*  text-shadow: 0px 0px 10px black;  */
-    text-decoration: underline;
+/* Selector de etiqueta */
+h1{
+    background: greenyellow;
+    color: honeydew;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: indianred;
+    text-decoration: none;
+}
+
+footer a{
+    color: rgb(108, 238, 104);
+
+}
+
+/* Selector de id */
+
+#descripcion, 
+#titulo{
+    border:  1px solid chocolate;
+    padding: 15px;
+}
+
+#titulo{
+    background: darkblue;
+    border: 2px dashed white;
+}
+
+/* Selector de clase */
+
+.parrafo{
+    font-style: italic;
+/*     text-decoration: underline;
+ */    font-weight: bold;
+}
+
+.parrafo1, .parrafo4{
+    background-color: yellowgreen;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.parrafo4{
+    background-color: orange;
+    color: black;
+}
+
+/* Selector de atributo */
+
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    background: rgb(76, 151, 0);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px black;
+    cursor: pointer;
+}
+
+/* Selectores hijo */
+
+#menu >li> a{
+    font-size: 18px;
+    color: rgb(0, 230, 247);
+    text-decoration: none;
+}
+
+/* Prioridad */
+#saludo h1{
+    background: red !important;
+}
+
+h1{
+    background: purple !important;
 }
