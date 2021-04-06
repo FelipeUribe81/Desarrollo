@@ -1,6 +1,6 @@
 body{
     background-color: #ccc;
-/*     background-image: url(./img/fondo2.jpg);
+/*  background-image: url(./img/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -9,8 +9,12 @@ body{
     color: black;
     font-family: monospace;
     text-align: justify;
-    
+/*  line-height: 10px; */    
+    text-indent: 15px;
+/*  word-spacing: 10px;
+    letter-spacing: 5px; */
 }
+
 #caja{
     border: 5px solid black;
     padding: 10px;
@@ -18,4 +22,7 @@ body{
     color: black;
     font-family: monospace;
     text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    vertical-align: bottom;
 }
