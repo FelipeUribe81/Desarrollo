@@ -14,7 +14,12 @@
     margin-right: 10px;
     padding: 40px;
     padding-bottom: 34px;
+    
 }
+#caja1:hover {
+    color: orange;
+}
+
 p{
     text-align: center;
     font-weight: bold;
